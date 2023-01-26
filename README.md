@@ -26,3 +26,5 @@ CSPNet 방식을 접목한 ViT
   * FLOPS & Parameters
   * Inference time
 * **Model save & load (colab only)**
+***
+Due to capacity issues, pre-trained model is uploaded by zip file only two CSPNet-applied models.
