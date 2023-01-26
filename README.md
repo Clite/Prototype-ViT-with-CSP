@@ -9,7 +9,7 @@ CSPNet의 아이디어인 절반의 feature만을 Conv layer로,
 * ver1과 ver2의 차이점
   * ver1 : feature map의 수를 기준으로 나눔
   * ver2 : patch size를 기준으로 나눔
-* Spec 비교
+* Spec 비교 (업로드 파일 기준)
 
 |모델|정확도|연산량|파라미터 수|추론 시간(patch size = 100)|
 |:------:|:------:|:---:|:---:|:---------:|
@@ -29,7 +29,7 @@ This model uses the CIFAR-10 dataset and 6-encoders.
 * Comparison between ver1 and ver2
   * ver1 : Apply chunk() to feature map dimension
   * ver2 : Apply chunk() to patch size dimension
-* Spec comparison
+* Spec comparison (Based on upload file)
 
 |Model|Accuracy|FLOPS|# of parameters|Inference time(patch size = 100)|
 |:------:|:------:|:---:|:---:|:---------:|
