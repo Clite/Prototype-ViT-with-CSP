@@ -9,7 +9,8 @@ CSPNet의 아이디어인 절반의 feature만을 Conv layer로 보내고
   * ver2 : patch size를 기준으로 나눔
 
 Pre-trained model의 경우, 용량 문제로 CSPNet을 적용한 두 가지 모델만 압축 파일로 제공합니다.
-***
+
+
 (EN)
 
 Sending only half of the feature to the conv layer, according to CSPNet idea,
