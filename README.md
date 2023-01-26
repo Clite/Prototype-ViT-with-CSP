@@ -10,6 +10,7 @@ CSPNet의 아이디어인 절반의 feature만을 Conv layer로,
   * ver1 : feature map의 수를 기준으로 나눔
   * ver2 : patch size를 기준으로 나눔
 * Spec 비교 (업로드 파일 기준)
+  * 정확도는 ±1.5%p, 추론 시간은 ±2ms 정도의 차이가 발생할 수 있습니다
 
 |모델|정확도|연산량|파라미터 수|추론 시간(patch size = 100)|
 |:------:|:------:|:---:|:---:|:---------:|
@@ -30,6 +31,7 @@ This model uses the CIFAR-10 dataset and 6-encoders.
   * ver1 : Apply chunk() to feature map dimension
   * ver2 : Apply chunk() to patch size dimension
 * Spec comparison (Based on upload file)
+  * Accuracy may vary by ±1.5%p and inference time may vary by ±2ms
 
 |Model|Accuracy|FLOPS|# of parameters|Inference time(patch size = 100)|
 |:------:|:------:|:---:|:---:|:---------:|
